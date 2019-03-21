@@ -12,25 +12,25 @@ git status
 git add *.ipynb  # adds every file with this extension
 git add .  # adds all files to track
 git commit
-# --> vim opens: click i, escape, :wq
+(--> vim opens: click i, escape, :wq)
 git commit -m 'changed assignment 1'  # to avoid vim
 touch .gitignore
 touch log.txt
-## Create a branch:
+# Create a branch:
 git branch <mybranch>
 git commit -m 'new branch'
-## Switch branch
+# Switch branch
 git checkout <mybranch>
-## Come back to master:
+# Come back to master:
 git checkout master
-## Merge
+# Merge
 git merge <mybranch>  # --> i, comments, escape, :wq
 git add README.md
-## check if there are any remotes:
+# check if there are any remotes:
 git remote
 git remote add origin https://github.com/kbantoec/myappsample.git
 git push -u origin master
-## Change remote
+# Change remote
 git remote set-url origin https://github.com/KaiBanto/emf.git
 git push --help
 git pull -h
